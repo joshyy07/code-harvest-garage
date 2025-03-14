@@ -24,7 +24,7 @@ const galleryImages = [
     category: "Service"
   },
   {
-    src: "https://images.unsplash.com/photo-1600706215753-15e538705190?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+    src: "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
     alt: "Interior detailing",
     title: "Interior Restoration",
     category: "Detailing"
