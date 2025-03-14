@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -18,11 +17,10 @@ const Contact = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   
-  const formRef = useRef<HTMLFormElement>(null);
+  const formContainerRef = useRef<HTMLDivElement>(null);
   const infoRef = useRef<HTMLDivElement>(null);
   const sectionRef = useRef<HTMLDivElement>(null);
 
-  // Animation on scroll
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -39,8 +37,8 @@ const Contact = () => {
       observer.observe(sectionRef.current);
     }
 
-    if (formRef.current) {
-      observer.observe(formRef.current);
+    if (formContainerRef.current) {
+      observer.observe(formContainerRef.current);
     }
 
     if (infoRef.current) {
@@ -51,8 +49,8 @@ const Contact = () => {
       if (sectionRef.current) {
         observer.unobserve(sectionRef.current);
       }
-      if (formRef.current) {
-        observer.unobserve(formRef.current);
+      if (formContainerRef.current) {
+        observer.unobserve(formContainerRef.current);
       }
       if (infoRef.current) {
         observer.unobserve(infoRef.current);
@@ -69,7 +67,6 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       toast({
@@ -87,7 +84,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-24">
+    <section id="contact" className="pt-12 pb-24">
       <div className="section-container">
         <div 
           ref={sectionRef} 
@@ -101,7 +98,7 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div 
-            ref={formRef}
+            ref={formContainerRef}
             className="fade-in-section rounded-xl overflow-hidden shadow-lg backdrop-blur-card p-8"
           >
             <h3 className="text-2xl font-bold mb-6">Service Request</h3>
