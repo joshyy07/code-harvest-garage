@@ -43,7 +43,7 @@ const Hero = () => {
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white container">
         <div className="animate-slide-down max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-            Premium Auto Services <br /> For Premium Cars
+            Justin's Auto Services <br /> For Premium Cars
           </h1>
           <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
             Experience exceptional auto care with the precision and attention to detail your vehicle deserves.
