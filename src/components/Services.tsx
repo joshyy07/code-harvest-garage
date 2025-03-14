@@ -29,7 +29,7 @@ const services = [
   },
   {
     title: 'Performance Tuning',
-    description: 'Precision tuning and upgrades to optimize your vehicle's performance capabilities.',
+    description: "Precision tuning and upgrades to optimize your vehicle's performance capabilities.",
     icon: <Gauge className="w-10 h-10 text-primary" />
   },
   {
