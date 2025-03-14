@@ -1,8 +1,9 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { cn } from '@/lib/utils';
+import { AspectRatio } from '@/components/ui/aspect-ratio';
 
-// Gallery images
+// Gallery images with updated links
 const galleryImages = [
   {
     src: "https://images.unsplash.com/photo-1550355291-bbee04a92027?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
@@ -11,7 +12,7 @@ const galleryImages = [
     category: "Detailing"
   },
   {
-    src: "https://media.gettyimages.com/id/176712668/photo/auto-repair-shop-car-garage.jpg?s=612x612&w=gi&k=20&c=Y78HWy8tQjC8H3t1WQ-QuFuVtIj6-nr0xbEdPlz7Vbs=",
+    src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
     alt: "Engine maintenance",
     title: "Engine Performance",
     category: "Maintenance"
@@ -29,7 +30,7 @@ const galleryImages = [
     category: "Detailing"
   },
   {
-    src: "https://images.unsplash.com/photo-1615906944252-3b6e82b99aa6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+    src: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
     alt: "Vehicle diagnostic",
     title: "Advanced Diagnostics",
     category: "Maintenance"
@@ -122,19 +123,18 @@ const Gallery = () => {
               className="fade-in-section group relative overflow-hidden rounded-lg shadow-md cursor-pointer"
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <div className="aspect-w-16 aspect-h-9">
+              <AspectRatio ratio={16/9}>
                 <img 
                   src={image.src} 
                   alt={image.alt} 
                   className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
                 />
-              </div>
-              <div className="image-overlay flex items-end">
-                <div className="p-4 text-white">
+                <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute bottom-0 left-0 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <h3 className="text-lg font-semibold">{image.title}</h3>
                   <p className="text-sm opacity-80">{image.category}</p>
                 </div>
-              </div>
+              </AspectRatio>
             </div>
           ))}
         </div>
