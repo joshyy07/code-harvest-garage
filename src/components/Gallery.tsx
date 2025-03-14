@@ -11,7 +11,7 @@ const galleryImages = [
     category: "Detailing"
   },
   {
-    src: "https://images.unsplash.com/photo-1562141606-998cd2fe948f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+    src: "https://media.istockphoto.com/id/1310978724/photo/the-washing-process-on-a-self-service-car-wash.jpg?s=612x612&w=0&k=20&c=vGHyZOqrU1rWrDE6eOeE6tJ0Eid45SrvQvw3S_sHix0=",
     alt: "Engine maintenance",
     title: "Engine Performance",
     category: "Maintenance"
