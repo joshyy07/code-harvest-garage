@@ -11,7 +11,7 @@ const galleryImages = [
     category: "Detailing"
   },
   {
-    src: "https://images.mktw.net/im-659589?width=1260&height=842",
+    src: "https://media.gettyimages.com/id/176712668/photo/auto-repair-shop-car-garage.jpg?s=612x612&w=gi&k=20&c=Y78HWy8tQjC8H3t1WQ-QuFuVtIj6-nr0xbEdPlz7Vbs=",
     alt: "Engine maintenance",
     title: "Engine Performance",
     category: "Maintenance"
