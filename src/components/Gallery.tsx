@@ -11,7 +11,7 @@ const galleryImages = [
     category: "Detailing"
   },
   {
-    src: "https://https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQ2GcaqQ05H5lGiP2KnpofW8JtRs9HXxTSQ&s",
+    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWnXm4paXqdJcSTnPpTpEf7p-3FZLN04LWqQ&s",
     alt: "Engine maintenance",
     title: "Engine Performance",
     category: "Maintenance"
