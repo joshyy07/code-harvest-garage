@@ -42,7 +42,7 @@ const Navbar = () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
         >
-          Premium Auto Garage
+          Justin's Auto Garage
         </a>
 
         {/* Desktop Navigation */}
