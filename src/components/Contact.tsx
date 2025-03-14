@@ -1,3 +1,4 @@
+
 import React, { useState, useRef, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -84,7 +85,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="pt-12 pb-24">
+    <section id="contact" className="pt-6 pb-24">
       <div className="section-container">
         <div 
           ref={sectionRef} 
