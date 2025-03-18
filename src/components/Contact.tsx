@@ -85,7 +85,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="pt-4 pb-24">
+    <section id="contact" className="pt-0 pb-24">
       <div className="section-container">
         <div 
           ref={sectionRef} 
