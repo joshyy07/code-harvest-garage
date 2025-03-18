@@ -49,7 +49,7 @@ const About = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-transparent z-10"></div>
             <img 
-              src="https://images.unsplash.com/photo-1613214456344-a9471d983252?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+              src="https://images.unsplash.com/photo-1720095326582-272eed78fa40?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
               alt="Premium Auto Garage" 
               className="object-cover w-full h-full transition-transform duration-10000 hover:scale-110"
             />
