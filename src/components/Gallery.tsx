@@ -86,7 +86,7 @@ const Gallery = () => {
     : galleryImages.filter(img => img.category === activeCategory);
 
   return (
-    <section id="gallery" className="py-12 pb-4 bg-secondary/30">
+    <section id="gallery" className="py-8 pb-2 bg-secondary/30">
       <div className="section-container">
         <div 
           ref={sectionRef} 

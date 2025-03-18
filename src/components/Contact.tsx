@@ -85,7 +85,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="pt-6 pb-24">
+    <section id="contact" className="pt-4 pb-24">
       <div className="section-container">
         <div 
           ref={sectionRef} 
@@ -194,7 +194,7 @@ const Contact = () => {
           >
             <div className="rounded-xl overflow-hidden h-72 mb-8">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215281233507!2d-73.9875!3d40.758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ1JzI4LjgiTiA3M8KwNTknMTUuMCJX!5e0!3m2!1sen!2sus!4v1625068500000!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.866092921074!2d-79.38927382346177!3d43.6588005710179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34cad8c8f33b%3A0x4a741e32abde9c3a!2sLuxury%20Auto%20Service%20Center!5e0!3m2!1sen!2sus!4v1658312456789!5m2!1sen!2sus" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
